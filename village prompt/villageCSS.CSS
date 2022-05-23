@@ -1,0 +1,54 @@
+  body {
+    background-image: url('../finalStarNight.gif');
+    background-repeat: repeat-x;
+    background-size: 20% 100%;
+    background-attachment: fixed;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        padding: 230px 10px 1px;
+        font-family: 'Alumni Sans', serif;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Alumni Sans', serif;
+        padding: 10px 1px 1px;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    button {
+        border: 2px solid rgb(106, 190, 48);
+        border-radius: 5px;
+        color: rgb(106, 190, 48);
+        padding: 16px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor:none;
+
+    }
+
+    button:hover {
+        background-color: rgb(106, 190, 48);
+        color: white;
+    }
+
+    .divider {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    }
+
+    #container {
+        text-align: center;
+        margin-right: 15px;
+    }

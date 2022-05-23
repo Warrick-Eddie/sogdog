@@ -1,0 +1,55 @@
+body {
+    background-image: url(../0Art/finalStarNight.gif);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+
+#loreText {
+    width: 60%;
+    border: 3px solid #123866;
+    padding: 15px;
+    margin: 50px;
+    position: relative ;
+    background-color: antiquewhite;
+    opacity: 0.75;
+    align-self: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+p {
+    position: relative;
+    font-family: papyrus;
+    white-space:inherit;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+button {
+    border: 2px solid #30165f;
+    border-radius: 5px;
+    color: solid #30165f;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor:none;
+
+}
+
+button:hover {
+    background-color: #30165f;
+    color: white;
+}
+
+
+#container {
+    text-align: center;
+}

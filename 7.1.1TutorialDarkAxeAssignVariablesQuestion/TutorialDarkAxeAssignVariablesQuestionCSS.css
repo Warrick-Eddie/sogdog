@@ -1,0 +1,29 @@
+body {
+    background-image: url(../0Art/finalStarNight.gif);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#loreText {
+    width: 80%;
+    border: 3px solid #123866;
+    padding: 15px;
+    margin: 50px;
+    position: relative ;
+    background-color: antiquewhite;
+    opacity: 0.75;
+    align-self: center;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50% , -50%);
+}
+
+p {
+    font-family: papyrus;
+    padding-left: 3px;
+}
+
+img {
+    padding: 5px;
+}

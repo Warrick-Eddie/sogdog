@@ -1,0 +1,57 @@
+body {
+    background-image: url('StarryNight.gif');
+    /* Background image made by Neda Eryilmaz, student from Team Table */
+    background-repeat: repeat-x;
+    background-size: contain;
+    }
+
+h1 {
+    text-align: center;
+    font-size: large;
+    padding: 225px 10px 1px;
+    font-family: 'Cinzel', serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 75;
+    font-family: 'Cinzel Decorative', cursive;
+    padding-bottom: 200px;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+    border: 2px solid rgb(106, 190, 48);
+    border-radius: 5px;
+    color: rgb(106, 190, 48);
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor:none;
+
+}
+
+button:hover {
+    background-color: rgb(106, 190, 48);
+    color: white;
+}
+
+#container {
+    text-align: center;
+}
+
+#box {
+    text-align: right;
+}
+
+/*audio{
+    display: none;
+}
